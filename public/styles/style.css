@@ -1,0 +1,48 @@
+html,body,div,canvas {
+    padding:0;
+    margin:0;
+    overflow:hidden;
+}
+#container {
+    background: #000;
+    width: 100%;
+    height: 100%;
+}
+.guidat{
+    position:absolute;
+    top:0;
+    right:0;
+    opacity:0;
+}
+.guidat:hover{
+    opacity:1;
+}
+h1,h2{
+    font-size: 24px;
+    position:absolute;
+    color: rgba(255,255,255,0.8);
+    text-shadow: rgba(0,0,0,0.5) 2px 2px 4px;
+    z-index:99999;
+    font-family: sans-serif;
+}
+h1{
+    opacity:1;
+    -webkit-transition: opacity 1s linear;            
+}
+h1:hover{
+    opacity:1;
+}
+
+#sms-number{
+    top:3%;
+    left:3%;
+}
+#message{
+    bottom:3%;
+    left:3%;
+}
+h2 span{
+    color: rgba(0,0,0,1);
+    text-shadow: rgba(255,255,255,0.8) 2px 2px 4px;
+    font-weight: bold;
+}
